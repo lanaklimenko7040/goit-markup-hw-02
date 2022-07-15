@@ -14,6 +14,10 @@ body{
 
 .list{
     text-decoration: none;
+
+}
+.current{
+    color:var(--hover-color)
 }
 /*-------------HEADER------*/
 
@@ -34,6 +38,16 @@ body{
     letter-spacing: 0.03em;
     color: #2196F3;
 }
+.header-item{
+    font-weight: 500;
+     font-size: 14px;
+    line-height: 1.14;
+    list-style: none;
+    letter-spacing: 0.02em;
+    color: var(--first-text-color);
+}
+
+
 .header-link{
     font-weight: 500;
     font-size: 14px;
@@ -50,7 +64,7 @@ body{
 .header-mail{
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
@@ -61,7 +75,7 @@ body{
 .header-tel{
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
  }
@@ -166,19 +180,20 @@ body{
 
 /*---------------FOOTER--------*/
 
+.logo-footer{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
 .contact {
     background-color: #2F303A;;
 }
 .contact-adress {
     font-style: normal
 }
-
-.contact-list {}
-
-.contact-item {
-    
-}
-
 .contact-map {
     font-style: normal;
     font-weight: 400;
@@ -212,6 +227,34 @@ body{
       color: var(--hover-color)
 
   }
+   /*-----------------PORTFOLIO---------*/
+    .button-link {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+   }
+    .button-link:hover,
+    .button-link:focus {
+    background: var(--hover-color);
+    }
+    .portfolio-title {
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 2;
+     letter-spacing: 0.06em;   
+     color: var(--first-text-color);
+   }
+    .portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+    }         
 
 
 
