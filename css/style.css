@@ -1,7 +1,8 @@
-:root{
-
+:root {
+   --first-text-color:  #212121;
+   --secondary-text-color:#757575;
+   --hover-color:  #2196F3;
 }
-
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -22,10 +23,8 @@ body{
      font-size: 26px;
      line-height: 1.19;
      letter-spacing: 0.03em; 
-     text-decoration: none;  
      color: #000000;
 }   
-
 .logo-web{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -34,32 +33,37 @@ body{
     letter-spacing: 0.03em;
     color: #2196F3;
 }
-.header-list{
+.header-link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     list-style: none;
     letter-spacing: 0.02em;
-    
-    color: #212121;
+    color:var(--first-text-color);
 }
 .header-link:hover, 
 .header-link:focus {
-    color: #2196F3
+    color: var(--hover-color)
 }
 
-.header-contacts {
+.header-item {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     list-style: none;
-    color: #757575;
+    color: var(--secondary-text-color);
+
 }
 .header-mail:hover,
-.header-link:focus {
-    color: #2196F3
+.header-mail:focus {
+    color: var(--hover-color)
 }
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--hover-color)
+}
+
 
        /*--------HERO-----------*/
 .hero {
@@ -90,20 +94,19 @@ body{
 }
 .hero-btn:hover,
 .hero-btn:focus {
-    background: #2196F3; 
+    background: var(--hover-color); 
 }
         /*--------DESCRIPTION-----------*/
 
-.description-list {
-    list-style: none;
-}
+
+
 .description-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color:var(--first-text-color);
 }
 
 .description-text {
@@ -111,7 +114,7 @@ body{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 
 /*---------------ABOUT---------*/
@@ -122,10 +125,7 @@ body{
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
-}
-.about-picture{
- list-style: none;
+    color: var(--first-text-color);
 }
 
 /*---------------TEAM---------*/
@@ -135,7 +135,7 @@ body{
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--first-text-color);
 }
 
  .team-name {
@@ -143,7 +143,7 @@ body{
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--first-text-color);
     
  }
 
@@ -156,9 +156,10 @@ body{
     font-size: 16px;
     line-height: 1.19px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 
+/*---------------FOOTER--------*/
 
 
     
