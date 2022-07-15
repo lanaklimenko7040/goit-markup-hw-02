@@ -17,7 +17,8 @@ body{
 }
 /*-------------HEADER------*/
 
-.logo-header{
+.logo-header
+{
      font-family: 'Raleway',sans-serif;
      font-weight: 700;
      font-size: 26px;
@@ -25,7 +26,7 @@ body{
      letter-spacing: 0.03em; 
      color: #000000;
 }   
-.logo-web{
+.logo-web {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -46,26 +47,29 @@ body{
     color: var(--hover-color)
 }
 
-.header-item {
+.header-mail{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 16px;
     letter-spacing: 0.02em;
-    list-style: none;
     color: var(--secondary-text-color);
-
 }
 .header-mail:hover,
 .header-mail:focus {
-    color: var(--hover-color)
-}
+    color: var(--hover-color)}
+
+.header-tel{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+ }
 .header-tel:hover,
 .header-tel:focus {
     color: var(--hover-color)
 }
-
-
-       /*--------HERO-----------*/
+     /*--------HERO-----------*/
 .hero {
     background:#2F303A;
 }
@@ -89,6 +93,7 @@ body{
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
     color: #FFFFFF;
 
 }
@@ -154,15 +159,59 @@ body{
 .team-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.19px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
 
 /*---------------FOOTER--------*/
 
+.contact {
+    background-color: #2F303A;;
+}
+.contact-adress {
+    font-style: normal
+}
 
+.contact-list {}
+
+.contact-item {
     
+}
+
+.contact-map {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;}
+
+.contact-email {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contact-email:hover,
+.contact-email:focus {
+    color:var(--hover-color)
+}
+.contact-tel{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+  .contact-tel:hover,
+  .contact-tel:focus {
+      color: var(--hover-color)
+
+  }
 
 
 
