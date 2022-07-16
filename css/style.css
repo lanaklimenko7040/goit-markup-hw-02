@@ -202,8 +202,9 @@ body{
     letter-spacing: 0.03em;
     color: #FFFFFF;}
 
-.contact-map:hover
- { color: var(--hover-color);
+.contact-map:hover,
+.contact-map:focus{
+  color: var(--hover-color);
  }
 .contact-email {
     font-style: normal;
