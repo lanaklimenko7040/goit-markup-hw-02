@@ -95,8 +95,7 @@ body{
     text-transform: uppercase;
     color: #FFFFFF;
 }
-    
-.hero-btn {
+ .hero-btn {
     font-family:inherit;
     font-weight: 700;
     font-size: 16px;
@@ -107,12 +106,15 @@ body{
     letter-spacing: 0.06em;
     cursor: pointer;
     color: #FFFFFF;
-
-}
+    background-color: #2196F3;} 
+    
 .hero-btn:hover,
 .hero-btn:focus {
-    background: var(--hover-color); 
-}
+    background: #188CE8; 
+}  
+
+
+
         /*--------DESCRIPTION-----------*/
 
 
@@ -200,6 +202,9 @@ body{
     letter-spacing: 0.03em;
     color: #FFFFFF;}
 
+.contact-map:hover
+ { color: var(--hover-color);
+ }
 .contact-email {
     font-style: normal;
     font-weight: 400;
@@ -210,7 +215,7 @@ body{
 }
 .contact-email:hover,
 .contact-email:focus {
-    color:var(--hover-color)
+    color:var(--hover-color);
 }
 .contact-tel{
     font-style: normal;
@@ -233,11 +238,13 @@ body{
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
     color: #212121;
    }
     .button-link:hover,
     .button-link:focus {
-    background: var(--hover-color);
+     background: var(--hover-color);
+     color: #FFFFFF;
     }
     .portfolio-title {
      font-weight: 700;
